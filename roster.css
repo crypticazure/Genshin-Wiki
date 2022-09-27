@@ -1,0 +1,52 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: hsl(10, 30%, 20%);
+}
+
+body h1, body h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+/*character portraits */
+
+.four_star a, .five_star a {
+    text-decoration: none;
+}
+
+.four_star, .five_star {
+    list-style: none;
+    display: inline-flex;
+    padding: 1rem;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+li div {
+    text-align: center;
+}
+
+div a {
+    background-color:aliceblue;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    color:black;
+}
+
+div a:hover {
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
+
+a {
+    color: black;
+    background-color:aliceblue;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
