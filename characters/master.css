@@ -1,0 +1,88 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Elemental Backgrounds */
+
+.anemo_bg {
+    background-color: hsl(190, 52%, 60%);
+}
+
+.cryo_bg {
+    background-color: hsl(189, 69%, 68%);
+}
+
+.pyro_bg {
+    background-color: hsl(15, 55%, 55%);
+}
+
+.dendro_bg {
+    background-color: hsl(87, 47%, 45%);
+}
+
+.hydro_bg {
+    background-color: hsl(216, 48%, 50%);
+}
+
+.geo_bg {
+    background-color: hsla(40, 95%, 60%, 0.75);
+}
+
+.electro_bg {
+    background-color: hsl(272, 48%, 56%);
+}
+
+.anemo {
+    color: hsl(190, 52%, 60%);
+}
+
+.pyro {
+    color: hsl(15, 55%, 55%);
+}
+
+.dendro {
+    color: hsl(87, 47%, 45%);
+}
+
+.hydro {
+    color: hsl(216, 48%, 50%);
+}
+
+.geo {
+    color: hsl(40, 95%, 60%);
+}
+
+.electro {
+    color:hsl(272, 48%, 56%);
+}
+
+.cryo {
+    color: hsl(189, 69%, 68%);
+}
+
+/* Text Styling */
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+h2 {
+    padding: 0 2rem; 
+}
+
+a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+body div {
+    width: 20rem;
+    padding: 0 2rem;
+    background-color: hsla(0, 0%, 0%, 0.1);
+    border-radius: 1em;
+}
+
+.quote_geo {
+    color: hsl(40, 95%, 60%);
+}
