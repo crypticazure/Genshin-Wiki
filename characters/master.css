@@ -25,7 +25,7 @@
 }
 
 .geo_bg {
-    background-color: hsla(40, 95%, 60%, 0.75);
+    background-color: hsla(0, 5%, 0%, 0.75);
 }
 
 .electro_bg {
@@ -63,12 +63,13 @@
 /* Text Styling */
 
 h1 {
-    color:black;
+    color:hsl(0, 0%, 80%);
     text-align: center;
 }
 
 h2 {
-    padding: 0 2rem; 
+    padding: 0 2rem;
+    color: hsl(0, 0%, 80%) 
 }
 
 a {
@@ -83,6 +84,20 @@ body div {
     border-radius: 1em;
 }
 
-.quote_geo {
-    color: hsl(40, 95%, 60%);
+.info_container {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: transparent;
+}
+
+div div {
+    padding: 2rem;
+    overflow-y: auto;
+    max-height: 25rem;
+}
+
+div * {
+    color:hsl(0, 0%, 80%);
 }
